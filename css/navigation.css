@@ -1,0 +1,19 @@
+.navigation {
+    background-color:  rgba(231, 222, 222, 0.678);
+    box-shadow: 4px 4px 12px rgba(3, 2, 2, 0.116);
+}
+
+.navigation__list {
+    list-style: none;
+    text-align: center;
+}
+
+.navigation__link {
+    color: rgb(21 153 80);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgb(9, 70, 37);
+    border-bottom: 1px solid;
+}

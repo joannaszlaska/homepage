@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/div.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main class="main">
+        <header>
+            <h1 class="main__header">KILKA SŁÓW O MNIE</h1>
+        </header>
+        <button class="main__button js-main__button">Dodaj <span class="main__span">ciemny</span> motyw</button>
+
+        <p class="main__pharagraph">Nazywam sie <strong>Joanna Szlaska</strong>.<br> Mam 27lat. Od 5 lat mieszkam w
+            Krakowie. <br> Pochodzę z północnego
+            mazowsza, studiowałam na <span class="main_span--university">Uniwersytecie Medycznym w Białymstoku.</span>
+        </p>
+        <img src=images/joanna.jpeg alt="joanna" class="main__img js-main__img"><br>
+        <button class="main__buttonRemove js-main__buttonRemove">Usuń zdjęcie</button>
+        <p>
+    </main>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__list"><a class="navigation__link" href="#pierwsza-sekcja">Co tutaj robię?</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#druga-sekcja">Co poza pracą i dzieckiem?</a>
+            </li>
+            <li class="navigation__list"><a class="navigation__link" href="#trzecia-sekcja">Czego lubię słuchać
+                    najbardziej?</a></li>
+        </ul>
+        </p>
+    </nav>
+    <section id="pierwsza-sekcja" class="section">
+        <h2 contenteditable class="section__header">Co tutaj robię?</h2>
+        <div class="section__work">
+            <p> Z zawodu jestem technikiem denstystycznym, <em>mam dość tej roboty</em>. <br> Postanowiłam
+                wykorzystać parę
+                godzin
+                macierzyńskiego w tygodniu, aby zrobić coś dla siebie. <br><b>Biorę sprawy w swoje ręce!</b></p>
+        </div>
+    </section>
+    <section id="druga-sekcja" class="section">
+        <h3 class="section__header">
+            Co poza pracą i dzieckiem?
+        </h3>
+        <p>Uwielbiam sport, relaks przy dobrej książce. Cenię sobie ciekawe seriale i rozbudowane gry planszowe, np.
+            <i>Catan</i>. Często odpoczywam przy dzwiękach ulubionej muzyki.
+        </p>
+    </section>
+    <section id="trzecia-sekcja" class="section">
+        <h3 class="section__header">
+            Czego lubię słuchac najbardziej?
+        </h3>
+    </section>
+    <div class="div">
+        <table class="table">
+            <caption class="table__caption"> Moje ulubione utwory</caption>
+            <thead>
+                <tr>
+                    <th class="tabel__tableCell tabel__color">Wykonawca</th>
+                    <th class="tabel__tableCell tabel__color">Utwór</th>
+                    <th class="tabel__tableCell tabel__color">Album</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <th class="tabel__tableCell" rowspan="2">Red Hot Chili Peppers</th>
+                <td class="tabel__tableCell">Sir Psycho Sexy</td>
+                <td class="tabel__tableCell" rowspan="2">Blood Sugar Sex Magic</td>
+            </tr>
+            <tr>
+
+                <td class="tabel__tableCell">Give it away</td>
+
+            </tr>
+            <tr>
+                <th class="tabel__tableCell"> MGMT</th>
+                <td class="tabel__tableCell">Time to pretend</td>
+                <td class="tabel__tableCell">Oracular Spectacular</td>
+            </tr>
+            <tr>
+                <th class="tabel__tableCell">Harry Styles</th>
+                <td class="tabel__tableCell">Golden</td>
+                <td class="tabel__tableCell">Fine Line</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">Copyright Ⓒ 2022. All right reserved.</footer>
+</body>
+</html>

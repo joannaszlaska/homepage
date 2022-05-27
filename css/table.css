@@ -1,0 +1,23 @@
+
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    outline: 20px solid rgb(129, 21, 21);
+}
+
+.table__caption {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tabel__tableCell {
+    border: 2px solid rgb(92 100 92);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tabel__color {
+    background-color: rgba(135, 177, 148, 0.733);
+}
