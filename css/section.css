@@ -4,8 +4,8 @@
 }
 
 .section__header {
-    background-color: #87847e61;
     text-align: center;
+    color: rgb(21 153 80);
 }
 
 .section__work {
