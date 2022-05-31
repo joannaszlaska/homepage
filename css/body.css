@@ -5,6 +5,10 @@
     margin: 20px auto;
     padding: 20px;
     max-width: 1000px;
+    background-image: url("../images/mybackgound.png");
+    background-size: cover;
+    background-position: center;
+
 }
 
 .body__dark {
