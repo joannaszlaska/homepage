@@ -18,6 +18,7 @@
 .main__header {
     color: rgb(21 153 80);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .main_span--university {
