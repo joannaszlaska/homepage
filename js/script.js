@@ -2,8 +2,8 @@ console.log("cześć")
 let main__buttonRemove = document.querySelector(".js-main__buttonRemove");
 let main__img = document.querySelector(".js-main__img");
 let main__button = document.querySelector(".js-main__button");
-let body__dark = document.querySelector(".body__dark");
-let main__span = document.querySelector(".js-main__span");
+let body = document.querySelector(".js-body");
+let main__span = document.querySelector(".main__span");
 
 main__buttonRemove.addEventListener("click", () => {
     main__img.remove();
