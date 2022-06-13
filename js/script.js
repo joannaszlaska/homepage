@@ -1,19 +1,36 @@
-console.log("cześć")
-let main__buttonRemove = document.querySelector(".js-main__buttonRemove");
-let main__img = document.querySelector(".js-main__img");
-let main__button = document.querySelector(".js-main__button");
-let body = document.querySelector(".js-body");
-let main__span = document.querySelector(".main__span");
+{
+    const welcome = () => {
+        console.log("Cześć wszystkim!")
+    }
 
-main__buttonRemove.addEventListener("click", () => {
-    main__img.remove();
+    const onChangeBakcgroundClick = () => {
+        const body = document.querySelector(".js-body");
+        const main__span = document.querySelector(".main__span");
 
-});
-main__button.addEventListener("click", () => {
-    body.classList.toggle("body__dark");
-
-    main__span.innerText = body.classList.contains("body__dark") ? "jasny" : "ciemny";
-
-});
+        body.classList.toggle("body__dark");
+        main__span.innerText = body.classList.contains("body__dark") ? "jasny" : "ciemny";
+    }
 
 
+    const onRemoveClick = () => {
+        let main__img = document.querySelector(".js-main__img");
+        main__img.remove();
+       
+    }
+
+
+    const init = () => {
+
+        let main__button = document.querySelector(".js-main__button");
+        main__button.addEventListener("click", onChangeBakcgroundClick);
+        let main__buttonRemove = document.querySelector(".js-main__buttonRemove");
+        main__buttonRemove.addEventListener("click", onRemoveClick);
+    }
+
+
+
+    welcome();
+    init();
+
+
+}
