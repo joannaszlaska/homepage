@@ -3,7 +3,7 @@
         console.log("Cześć wszystkim!")
     }
 
-    const onChangeBakcgroundClick = () => {
+    const onChangeBackgroundClick = () => {
         const body = document.querySelector(".js-body");
         const main__span = document.querySelector(".main__span");
 
@@ -12,8 +12,8 @@
     }
 
 
-    const onRemoveClick = () => {
-        let main__img = document.querySelector(".js-main__img");
+    const onRemoveClick = () => { 
+        let main__img = document.querySelector(".js-image");
         main__img.remove();
        
     }
@@ -22,7 +22,7 @@
     const init = () => {
 
         let main__button = document.querySelector(".js-main__button");
-        main__button.addEventListener("click", onChangeBakcgroundClick);
+        main__button.addEventListener("click", onChangeBackgroundClick);
         let main__buttonRemove = document.querySelector(".js-main__buttonRemove");
         main__buttonRemove.addEventListener("click", onRemoveClick);
     }

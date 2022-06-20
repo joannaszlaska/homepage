@@ -1,6 +1,7 @@
 .section {
     background: rgba(231, 222, 222, 0.678);
     box-shadow: 4px 4px 12px rgba(3, 2, 2, 0.116);
+    padding: 20px;
 }
 
 .section__header {
